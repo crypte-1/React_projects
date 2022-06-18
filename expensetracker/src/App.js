@@ -5,7 +5,12 @@ import IncomeExpenses from "./components/IncomeExpenses";
 import { TransactionList } from "./components/TransactionList";
 import { AddTransaction } from "./components/AddTransaction";
 
+import { GlobalContext } from "./context/Globalstate";
+import { useContext } from "react";
+
 function App() {
+  const context = useContext(GlobalContext);
+  console.log(context);
   return (
     <div>
       <Header />
