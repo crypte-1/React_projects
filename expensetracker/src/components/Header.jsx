@@ -1,7 +1,5 @@
 import React from "react";
 
-const Header = (props) => {
-  return <div>Hey {props.name}</div>;
+export const Header = () => {
+  return <h2>Expense Tracker</h2>;
 };
-
-export default Header;
