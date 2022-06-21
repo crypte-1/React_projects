@@ -3,7 +3,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Hai</header>
+      <div className="container">
+        <div className="generator">
+          <h2 className="generator__header">Password Generator</h2>
+        </div>
+      </div>
     </div>
   );
 }
